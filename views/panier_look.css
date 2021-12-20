@@ -1,0 +1,51 @@
+h1
+{
+    text-align:center;
+    color: darkblue;
+    font-size: 4em;
+}
+p
+{
+    text-align: left;
+    color: darkblue;
+    font-size: 2em;
+}
+#conteneur1
+{
+    display: flex;
+    flex-direction:row;
+    width: 20%;
+    justify-content: space-between;
+}
+#conteneur
+{
+    display: flex;
+    flex-direction:row;
+    width: 50%;
+}
+.conteneur2
+{
+    display: flex;
+    flex-direction:column;
+}
+.lessons
+{
+    box-sizing: border-box;
+    block-size: 2em;
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    width:auto;
+    margin: 0.2em;
+}
+.title
+{
+    font-weight: 700;
+    box-sizing: border-box;
+    block-size: 2em;
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    width:auto;
+    margin: 0.2em;
+}
